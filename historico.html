@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PassBy · Histórico</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="historico"><main class="main"><header><p class="eyebrow">Consulte os registros anteriores</p><h1>Histórico</h1></header>
+<div class="alert" id="alert" hidden><b>ESP32 desconectado.</b> Sem comunicação com o dispositivo. Os valores em tempo real foram ocultados.</div>
+<section class="card"><h2>Últimos 7 dias</h2><p class="muted">Entradas e saídas registradas por dia.</p><p class="lg"><span><i class="e"></i>Entradas</span><span><i class="s"></i>Saídas</span></p><div class="chart" id="ch7"></div></section>
+<section class="grid2"><div class="card"><h2>Consultar data</h2><div class="row"><input type="date" id="dia"><button class="btn ghost" id="recentes">Ver recentes</button><select id="tipo"><option value="">Entradas e saídas</option><option value="e">Somente entradas</option><option value="s">Somente saídas</option></select></div><div class="duo"><div><div class="big sm" id="diaTotal">—</div><p class="muted">entradas</p></div><div><div class="big sm out" id="diaSaidas">—</div><p class="muted">saídas</p></div></div><p class="muted" id="diaTxt"></p><h3>Por data</h3><div id="dias" class="tbl"></div></div>
+<div class="card"><h2 id="lstTitulo">Registros recentes</h2><div id="lista" class="tbl"></div></div></section>
+</main>
+<script src="script.js"></script></body></html>
