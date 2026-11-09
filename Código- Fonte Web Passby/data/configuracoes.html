@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PassBy · Configurações</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="configuracoes"><main class="main"><header><p class="eyebrow">Controle do dispositivo e dos registros</p><h1>Configurações</h1></header>
+<div class="alert" id="alert" hidden><b>ESP32 desconectado.</b> Sem comunicação com o dispositivo. Os valores em tempo real foram ocultados.</div>
+<section class="card set"><div><h2>Aviso sonoro</h2><p class="muted">Ativa ou desativa o buzzer (tocado em entradas e saídas confirmadas). Os sensores continuam contando normalmente.</p></div><label class="sw"><input type="checkbox" id="buz" data-needs><span></span></label></section>
+<section class="card set"><div><h2>Reiniciar contagem</h2><p class="muted">Zera os totais de entradas e de saídas e registra o momento. O histórico de eventos é preservado.</p><p class="muted" id="ultReset"></p></div><button class="btn" id="reset" data-needs>Reiniciar contagem</button></section>
+<section class="card set danger"><div><h2>Excluir histórico</h2><p class="muted">Apaga definitivamente todos os registros e reinicializações. Não afeta os totais atuais de entradas e saídas.</p></div><button class="btn red" id="clear" data-needs>Excluir histórico</button></section>
+</main>
+<script src="script.js"></script></body></html>
