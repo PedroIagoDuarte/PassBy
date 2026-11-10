@@ -1,3 +1,4 @@
+
 :root{--bg:#f6f1e7;--card:#fffdf8;--br:#3e2c20;--br2:#7a6451;--bei:#e9dfcc;--gr:#7d8f64;--grl:#e3e9d6;--red:#a65a48;--ln:#eee6d8}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--br);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
 h1,h2,h3,.big,.kpi b{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-weight:500;margin:0}
