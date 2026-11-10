@@ -43,11 +43,11 @@ Dessa forma, o projeto busca proporcionar maior precisão, praticidade e eficiê
 
 | Integrante | Registro Acadêmico (RA) |
 |:---|:---:|
-| Luma Lima | A preencher |
-| Pedro Henrique Andrade | A preencher |
-| Pedro Iago Duarte de Moraes | A preencher |
-| Rayka Souza | A preencher |
-| Victor Souza | A preencher |
+| Luma Lima | 40125935 |
+| Pedro Henrique Andrade | 40134298 |
+| Pedro Iago Duarte de Moraes | 40135302 |
+| Rayka Souza | 40126497 |
+| Victor Souza | 40108564 |
 
 ---
 
@@ -337,7 +337,7 @@ https://github.com/user-attachments/assets/afe567fe-53b1-4bf1-90e3-e1d9043a39f4
 
 ---
 
-## 🤝 10. Histórico de Desenvolvimento
+## 🤝 9. Histórico de Desenvolvimento
 
 O desenvolvimento do PassBy foi realizado de maneira colaborativa, com a participação dos integrantes da equipe nas etapas de planejamento, implementação, integração de hardware e software e testes.
 
