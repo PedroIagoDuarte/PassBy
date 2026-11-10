@@ -43,11 +43,11 @@ Dessa forma, o projeto busca proporcionar maior precisão, praticidade e eficiê
 
 | Integrante | Registro Acadêmico (RA) |
 |:---|:---:|
-| Luma Lima | A preencher |
-| Pedro Henrique Andrade | A preencher |
-| Pedro Iago Duarte de Moraes | A preencher |
-| Rayka Souza | A preencher |
-| Victor Souza | A preencher |
+| Luma Lima | 40125935 |
+| Pedro Henrique Andrade | 40134298 |
+| Pedro Iago Duarte de Moraes | 40135302 |
+| Rayka Souza | 40126497 |
+| Victor Souza | 40108564 |
 
 ---
 
@@ -146,13 +146,13 @@ flowchart TB
 
 | Componente | Pino do Componente | Pino ESP32 |
 |:---|:---:|:---:|
-| Sensor ultrassônico 1 | TRIG | A confirmar |
-| Sensor ultrassônico 1 | ECHO | A confirmar |
-| Sensor ultrassônico 2 | TRIG | A confirmar |
-| Sensor ultrassônico 2 | ECHO | A confirmar |
-| Tela OLED | SDA | A confirmar |
-| Tela OLED | SCL | A confirmar |
-| Buzzer | Sinal | A confirmar |
+| Sensor ultrassônico 1 | TRIG | D5 |
+| Sensor ultrassônico 1 | ECHO | D18 |
+| Sensor ultrassônico 2 | TRIG | D19 |
+| Sensor ultrassônico 2 | ECHO | D25 |
+| Tela OLED | SDA | D21 |
+| Tela OLED | SCL | D22 |
+| Buzzer | Sinal | D23 |
 | Todos os componentes | GND | GND |
 
 ---
@@ -299,26 +299,26 @@ Certifique-se de que:
 
 Após a inicialização, verifique se a aplicação consegue consultar os dados dos sensores e se as funcionalidades de controle estão respondendo corretamente.
 
-### 6.3. Checklist de Funcionamento
-
-- [ ] ESP32 conectado à rede Wi-Fi.
-- [ ] Servidor HTTP inicializado.
-- [ ] Sensores ultrassônicos realizando leituras.
-- [ ] Contagem de animais funcionando.
-- [ ] Tela OLED exibindo as informações.
-- [ ] Buzzer realizando a sinalização sonora.
-- [ ] Cliente web conectado ao ESP32.
-- [ ] Comunicação HTTP funcionando corretamente.
-
 ---
 
 ## 🎥 7. Demonstração do Projeto
 
 O vídeo demonstrativo apresenta o funcionamento do PassBy, mostrando a montagem física, a identificação da passagem dos animais, a atualização da contagem e a comunicação com a aplicação web.
 
-**Link da demonstração:**
+**Fotos do projeto:**
+<p align="center">
+  <img width="500" height="500" alt="WhatsApp Image 2026-11-09 at 22 26 39" src="https://github.com/user-attachments/assets/bc79820a-6e65-4f41-a37e-f7d75f01bb0a" />
+  <img width="500" height="500" alt="WhatsApp Image 2026-11-09 at 22 26 39" src="https://github.com/user-attachments/assets/a1195035-a7ed-43a2-a1ca-934f9fca402e" />
+  <img width="500" height="500" alt="WhatsApp Image 2026-11-09 at 09 47 44" src="https://github.com/user-attachments/assets/091d64af-3aef-446e-9e58-2e3ad6fa3303" />
+</p>
 
-[INSERIR LINK DO VÍDEO]
+**Vídeo de demonstração:**
+
+
+
+https://github.com/user-attachments/assets/afe567fe-53b1-4bf1-90e3-e1d9043a39f4
+
+
 
 ---
 
@@ -337,7 +337,7 @@ O vídeo demonstrativo apresenta o funcionamento do PassBy, mostrando a montagem
 
 ---
 
-## 🤝 10. Histórico de Desenvolvimento
+## 🤝 9. Histórico de Desenvolvimento
 
 O desenvolvimento do PassBy foi realizado de maneira colaborativa, com a participação dos integrantes da equipe nas etapas de planejamento, implementação, integração de hardware e software e testes.
 
