@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PassBy · Visão geral</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="index"><main class="main"><header><p class="eyebrow">Monitoramento em tempo real</p><h1>Visão geral</h1></header>
+<div class="alert" id="alert" hidden><b>ESP32 desconectado.</b> Sem comunicação com o dispositivo. Os valores em tempo real foram ocultados.</div>
+<section class="grid2 heroes"><div class="hero card"><p class="eyebrow">Entradas</p><div class="big" id="countIn">—</div><p class="muted">animais que entraram desde a última reinicialização</p></div><div class="hero card out"><p class="eyebrow">Saídas</p><div class="big" id="countOut">—</div><p class="muted">animais que saíram desde a última reinicialização</p></div></section>
+<section class="grid3">
+<div class="card kpi"><p class="eyebrow">Conexão</p><b id="kConn">—</b><small>ESP32</small></div>
+<div class="card kpi"><p class="eyebrow">Última atualização</p><b id="kLast">—</b><small>recebida do dispositivo</small></div>
+<div class="card kpi"><p class="eyebrow">Alarme sonoro</p><b id="kBuz">—</b><small>aviso a cada entrada e saída</small></div></section>
+<section class="card"><h2>Movimentação por horário</h2><p class="muted">Entradas e saídas registradas hoje, hora a hora.</p><p class="lg"><span><i class="e"></i>Entradas</span><span><i class="s"></i>Saídas</span></p><div class="chart h24" id="chHora"></div></section>
+</main>
+<script src="script.js"></script></body></html>
