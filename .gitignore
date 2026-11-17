@@ -1,0 +1,24 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.log
+*.bak
+
+# Arquivos de compilação
+build/
+.pio/
+*.bin
+*.elf
+*.map
+
+# Configurações locais
+.env
+.env.*
+!.env.example
