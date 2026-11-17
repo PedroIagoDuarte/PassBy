@@ -121,7 +121,8 @@ O projeto utiliza componentes eletrônicos responsáveis pela identificação da
 
 ### Esquemático do Circuito
 
-> Inserir aqui a imagem do esquemático elétrico completo, demonstrando as conexões entre o ESP32, os dois sensores ultrassônicos, a tela OLED e o buzzer.
+<img src="https://github.com/user-attachments/assets/a555f37e-82d9-4a0d-8925-218882ee8899" width="500" alt="Esquematico"/>
+
 
 ### Diagrama de Conexões
 
