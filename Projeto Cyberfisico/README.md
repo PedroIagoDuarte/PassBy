@@ -170,9 +170,9 @@ Essa comunicação permite que o cliente consulte informações do sistema e env
 | Protocolo | HTTP |
 | Servidor | ESP32 |
 | Cliente | Aplicação Web |
-| Endereço IP | IP disponibilizado pelo ESP32 |
-| Porta | A confirmar |
-| Formato dos dados | A confirmar |
+| Endereço IP | 192.168.15.1 |
+| Porta | COM3 |
+| Formato dos dados | JSON |
 
 ### Endpoints
 
