@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Projeto-IoT-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hardware-ESP32-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Comunicação-HTTP-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" />
 </p>
 
 <p align="center">
